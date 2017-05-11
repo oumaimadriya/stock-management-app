@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="serieNumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 53</value>
+  </data>
+  <data name="serieNumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="serieNumberLabel.Text" xml:space="preserve">
+    <value>رقم السري:</value>
+  </data>
+  <data name="designationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 96</value>
+  </data>
+  <data name="designationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="designationLabel.Text" xml:space="preserve">
+    <value>التعيين  :   </value>
+  </data>
+  <data name="serieNumberTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 46</value>
+  </data>
+  <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 96</value>
+  </data>
+  <data name="button_Ajoutr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 115</value>
+  </data>
+  <data name="designationTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 96</value>
+  </data>
+  <data name="buttonSupprimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 164</value>
+  </data>
+  <data name="buttonSave.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="textBoxModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 444</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxModel.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="textBoxMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 403</value>
+  </data>
+  <data name="textBoxMark.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="textBoxInventorynumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 141</value>
+  </data>
+  <data name="textBoxInventorynumber.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 141</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>رقم المخزون:</value>
+  </data>
+  <data name="comboBoxdelivry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 362</value>
+  </data>
+  <data name="comboBoxdelivry.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="comboBoxcategorie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 328</value>
+  </data>
+  <data name="comboBoxcategorie.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="iNN_NumberTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 291</value>
+  </data>
+  <data name="iNN_NumberTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="dimensionTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 249</value>
+  </data>
+  <data name="dimensionTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="observationTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 212</value>
+  </data>
+  <data name="observationTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="updateServiceDateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="updateServiceDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 173</value>
+  </data>
+  <data name="updateServiceDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="updateServiceDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="updateServiceDateLabel.Text" xml:space="preserve">
+    <value>تاريخ اضافة الخدمة:</value>
+  </data>
+  <data name="updateServiceDateDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 167</value>
+  </data>
+  <data name="updateServiceDateDateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 444</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>النمودج:</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>690, 406</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>العلامة:</value>
+  </data>
+  <data name="deliveryLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="deliveryLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>690, 365</value>
+  </data>
+  <data name="deliveryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="deliveryLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="deliveryLabel.Text" xml:space="preserve">
+    <value>الايصال:</value>
+  </data>
+  <data name="materialCategoryLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCategoryLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 336</value>
+  </data>
+  <data name="materialCategoryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="materialCategoryLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="materialCategoryLabel.Text" xml:space="preserve">
+    <value>نوع البضاىع:</value>
+  </data>
+  <data name="iNN_NumberLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="iNN_NumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>677, 291</value>
+  </data>
+  <data name="iNN_NumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="iNN_NumberLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="iNN_NumberLabel.Text" xml:space="preserve">
+    <value>INN رقم:</value>
+  </data>
+  <data name="dimensionLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dimensionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 249</value>
+  </data>
+  <data name="dimensionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="dimensionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="dimensionLabel.Text" xml:space="preserve">
+    <value>البعد:</value>
+  </data>
+  <data name="observationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="observationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>689, 212</value>
+  </data>
+  <data name="observationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="observationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="observationLabel.Text" xml:space="preserve">
+    <value>الملاحظة:</value>
+  </data>
+</root>

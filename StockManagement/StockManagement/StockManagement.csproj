@@ -326,6 +326,12 @@
     <EmbeddedResource Include="Migrations\201705041120551_Create_data.resx">
       <DependentUpon>201705041120551_Create_data.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentations\MaterialManger\FormAjouterGroupe.ar.resx">
+      <DependentUpon>FormAjouterGroupe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentations\MaterialManger\FormAjouterGroupe.fr.resx">
+      <DependentUpon>FormAjouterGroupe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentations\MaterialManger\FormAjouterGroupe.resx">
       <DependentUpon>FormAjouterGroupe.cs</DependentUpon>
     </EmbeddedResource>

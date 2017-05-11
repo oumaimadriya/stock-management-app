@@ -32,6 +32,8 @@ namespace StockManagement
             comboBoxdelivry.DataSource = db.Deliveries.ToList<Entities.Delivery>();
             comboBoxdelivry.DisplayMember = "Market";
             comboBoxdelivry.ValueMember = "id";
+
+
         
        
 
