@@ -25,6 +25,7 @@ namespace StockManagement
         private void FormAjouterGroupe_Load(object sender, EventArgs e)
         {
           
+
          //  List<Entities.MaterialCategory> Lm =   db.MaterialCategories.ToList<Entities.MaterialCategory>();
             comboBoxcategorie.DataSource = db.MaterialCategories.ToList<Entities.MaterialCategory>();
             comboBoxcategorie.DisplayMember = "Designation";

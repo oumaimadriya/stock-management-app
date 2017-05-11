@@ -173,11 +173,11 @@
   <data name="textBoxInventorynumber.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 70</value>
   </data>
-  <data name="textBoxMark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 335</value>
-  </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialCategoryLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 268</value>
   </data>
   <data name="&gt;&gt;updateServiceDateDateTimePicker.Name" xml:space="preserve">
     <value>updateServiceDateDateTimePicker</value>
@@ -251,12 +251,6 @@
   <data name="&gt;&gt;updateServiceDateLabel.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="&gt;&gt;textBoxInventorynumber.Name" xml:space="preserve">
-    <value>textBoxInventorynumber</value>
-  </data>
-  <data name="&gt;&gt;comboBoxcategorie.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;buttonSave.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
@@ -271,6 +265,9 @@
   </data>
   <data name="&gt;&gt;dimensionTextBox.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="serieNumberLabel.TabIndex" type="System.Int32, mscorlib">
     <value>115</value>
@@ -296,8 +293,8 @@
   <data name="&gt;&gt;dimensionLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 73</value>
+  <data name="&gt;&gt;materialCategoryLabel.Name" xml:space="preserve">
+    <value>materialCategoryLabel</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -326,9 +323,6 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;buttonSupprimer.Name" xml:space="preserve">
-    <value>buttonSupprimer</value>
-  </data>
   <data name="&gt;&gt;buttonSave.Name" xml:space="preserve">
     <value>buttonSave</value>
   </data>
@@ -344,14 +338,17 @@
   <data name="dimensionLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 13</value>
   </data>
+  <data name="&gt;&gt;button_Ajoutr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;buttonSave.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="dimensionTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>128</value>
   </data>
-  <data name="textBoxInventorynumber.TabIndex" type="System.Int32, mscorlib">
-    <value>139</value>
+  <data name="&gt;&gt;button_Ajoutr.Name" xml:space="preserve">
+    <value>button_Ajoutr</value>
   </data>
   <data name="&gt;&gt;comboBoxdelivry.Name" xml:space="preserve">
     <value>comboBoxdelivry</value>
@@ -365,8 +362,14 @@
   <data name="&gt;&gt;textBoxInventorynumber.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="designationTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 20</value>
+  </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 73</value>
+  </data>
+  <data name="&gt;&gt;iNN_NumberLabel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;materialCategoryLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -386,9 +389,6 @@
   <data name="deliveryLabel.TabIndex" type="System.Int32, mscorlib">
     <value>131</value>
   </data>
-  <data name="&gt;&gt;updateServiceDateLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="comboBoxcategorie.TabIndex" type="System.Int32, mscorlib">
     <value>135</value>
   </data>
@@ -398,8 +398,8 @@
   <data name="&gt;&gt;textBoxMark.Name" xml:space="preserve">
     <value>textBoxMark</value>
   </data>
-  <data name="&gt;&gt;textBoxModel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;iNN_NumberTextBox.Name" xml:space="preserve">
+    <value>iNN_NumberTextBox</value>
   </data>
   <data name="buttonSupprimer.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -415,6 +415,9 @@
   </data>
   <data name="&gt;&gt;textBoxModel.Name" xml:space="preserve">
     <value>textBoxModel</value>
+  </data>
+  <data name="&gt;&gt;dimensionLabel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;listBox1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -434,17 +437,11 @@
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 383</value>
   </data>
-  <data name="&gt;&gt;designationTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;button_Ajoutr.ZOrder" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="&gt;&gt;textBoxMark.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonSupprimer.ZOrder" xml:space="preserve">
-    <value>19</value>
+  <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>$this</value>
@@ -485,11 +482,11 @@
   <data name="buttonSupprimer.Text" xml:space="preserve">
     <value>-</value>
   </data>
-  <data name="designationTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>124</value>
+  <data name="&gt;&gt;textBoxMark.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;buttonSupprimer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="observationTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 20</value>
@@ -502,9 +499,6 @@
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>138</value>
-  </data>
-  <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
   </data>
   <data name="serieNumberLabel.Text" xml:space="preserve">
     <value>Serie Number:</value>
@@ -527,17 +521,11 @@
   <data name="designationLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="textBoxMark.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 20</value>
-  </data>
   <data name="&gt;&gt;designationTextBox.ZOrder" xml:space="preserve">
     <value>21</value>
   </data>
   <data name="buttonSave.Location" type="System.Drawing.Point, System.Drawing">
     <value>507, 473</value>
-  </data>
-  <data name="&gt;&gt;serieNumberLabel.Name" xml:space="preserve">
-    <value>serieNumberLabel</value>
   </data>
   <data name="&gt;&gt;designationTextBox.Parent" xml:space="preserve">
     <value>$this</value>
@@ -545,32 +533,35 @@
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBoxcategorie.Name" xml:space="preserve">
-    <value>comboBoxcategorie</value>
-  </data>
   <data name="dimensionTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 156</value>
   </data>
-  <data name="&gt;&gt;observationLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;textBoxInventorynumber.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;serieNumberTextBox.Name" xml:space="preserve">
+    <value>serieNumberTextBox</value>
   </data>
   <data name="&gt;&gt;comboBoxcategorie.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="materialCategoryLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 268</value>
+  <data name="textBoxMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 335</value>
   </data>
   <data name="observationLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;iNN_NumberTextBox.Name" xml:space="preserve">
-    <value>iNN_NumberTextBox</value>
-  </data>
-  <data name="&gt;&gt;dimensionLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;textBoxInventorynumber.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;textBoxModel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;updateServiceDateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -578,11 +569,11 @@
   <data name="&gt;&gt;observationTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;comboBoxcategorie.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
+  <data name="textBoxInventorynumber.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
   </data>
   <data name="listBox1.TabIndex" type="System.Int32, mscorlib">
     <value>121</value>
@@ -602,11 +593,11 @@
   <data name="materialCategoryLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;dimensionLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="textBoxMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 20</value>
   </data>
-  <data name="&gt;&gt;button_Ajoutr.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;buttonSupprimer.ZOrder" xml:space="preserve">
+    <value>19</value>
   </data>
   <data name="comboBoxdelivry.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 299</value>
@@ -617,8 +608,8 @@
   <data name="&gt;&gt;comboBoxdelivry.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="designationTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 20</value>
+  <data name="&gt;&gt;serieNumberLabel.Name" xml:space="preserve">
+    <value>serieNumberLabel</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 13</value>
@@ -626,8 +617,8 @@
   <data name="iNN_NumberTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 195</value>
   </data>
-  <data name="&gt;&gt;listBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;buttonSupprimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;observationLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -644,14 +635,17 @@
   <data name="label1.Text" xml:space="preserve">
     <value>InventoryNumber:</value>
   </data>
-  <data name="serieNumberTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 26</value>
+  <data name="&gt;&gt;textBoxModel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;serieNumberTextBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCategoryLabel.Name" xml:space="preserve">
-    <value>materialCategoryLabel</value>
+  <data name="&gt;&gt;designationTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dimensionTextBox.Name" xml:space="preserve">
+    <value>dimensionTextBox</value>
   </data>
   <data name="materialCategoryLabel.TabIndex" type="System.Int32, mscorlib">
     <value>130</value>
@@ -659,11 +653,14 @@
   <data name="&gt;&gt;textBoxInventorynumber.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;observationLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="textBoxModel.TabIndex" type="System.Int32, mscorlib">
-    <value>143</value>
+  <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 73</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 342</value>
   </data>
   <data name="&gt;&gt;observationTextBox.Parent" xml:space="preserve">
     <value>$this</value>
@@ -674,20 +671,20 @@
   <data name="observationTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>127</value>
   </data>
-  <data name="listBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 368</value>
+  <data name="&gt;&gt;buttonSupprimer.Name" xml:space="preserve">
+    <value>buttonSupprimer</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 342</value>
+  <data name="&gt;&gt;textBoxInventorynumber.Name" xml:space="preserve">
+    <value>textBoxInventorynumber</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>833, 508</value>
   </data>
-  <data name="&gt;&gt;button_Ajoutr.Name" xml:space="preserve">
-    <value>button_Ajoutr</value>
+  <data name="designationTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
   </data>
-  <data name="&gt;&gt;iNN_NumberLabel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;comboBoxcategorie.Name" xml:space="preserve">
+    <value>comboBoxcategorie</value>
   </data>
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -695,8 +692,11 @@
   <data name="&gt;&gt;buttonSupprimer.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBoxModel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="serieNumberTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 26</value>
+  </data>
+  <data name="&gt;&gt;dimensionLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -707,8 +707,8 @@
   <data name="&gt;&gt;textBoxModel.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="textBoxModel.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
   </data>
   <data name="deliveryLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 13</value>
@@ -749,11 +749,11 @@
   <data name="&gt;&gt;observationLabel.Name" xml:space="preserve">
     <value>observationLabel</value>
   </data>
-  <data name="&gt;&gt;serieNumberTextBox.Name" xml:space="preserve">
-    <value>serieNumberTextBox</value>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;dimensionTextBox.Name" xml:space="preserve">
-    <value>dimensionTextBox</value>
+  <data name="listBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 368</value>
   </data>
   <data name="&gt;&gt;designationLabel.Name" xml:space="preserve">
     <value>designationLabel</value>
