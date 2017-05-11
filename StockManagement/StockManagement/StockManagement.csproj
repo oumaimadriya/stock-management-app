@@ -208,11 +208,11 @@
       <DependentUpon>201705041120551_Create_data.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Presentations\MaterialManger\FormAjouterGroupe.cs">
+    <Compile Include="Presentations\MaterialManger\FormMatriel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentations\MaterialManger\FormAjouterGroupe.designer.cs">
-      <DependentUpon>FormAjouterGroupe.cs</DependentUpon>
+    <Compile Include="Presentations\MaterialManger\FormMatriel.designer.cs">
+      <DependentUpon>FormMatriel.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentations\Menu\FormMenu.cs">
       <SubType>Form</SubType>
@@ -326,14 +326,14 @@
     <EmbeddedResource Include="Migrations\201705041120551_Create_data.resx">
       <DependentUpon>201705041120551_Create_data.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentations\MaterialManger\FormAjouterGroupe.ar.resx">
-      <DependentUpon>FormAjouterGroupe.cs</DependentUpon>
+    <EmbeddedResource Include="Presentations\MaterialManger\FormMatriel.ar.resx">
+      <DependentUpon>FormMatriel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentations\MaterialManger\FormAjouterGroupe.fr.resx">
-      <DependentUpon>FormAjouterGroupe.cs</DependentUpon>
+    <EmbeddedResource Include="Presentations\MaterialManger\FormMatriel.fr.resx">
+      <DependentUpon>FormMatriel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentations\MaterialManger\FormAjouterGroupe.resx">
-      <DependentUpon>FormAjouterGroupe.cs</DependentUpon>
+    <EmbeddedResource Include="Presentations\MaterialManger\FormMatriel.resx">
+      <DependentUpon>FormMatriel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentations\Menu\FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
